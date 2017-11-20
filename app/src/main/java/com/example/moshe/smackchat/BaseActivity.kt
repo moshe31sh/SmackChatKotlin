@@ -8,8 +8,11 @@ abstract class  BaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(getContentView())
+        init()
 
     }
 
     abstract fun getContentView() :Int
+
+    abstract fun init()
 }
