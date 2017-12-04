@@ -1,6 +1,7 @@
-package com.example.moshe.smackchat
+package com.example.moshe.smackchat.controller
 
 import android.graphics.Color
+import com.example.moshe.smackchat.R
 import kotlinx.android.synthetic.main.activity_create_user.*
 import java.util.*
 

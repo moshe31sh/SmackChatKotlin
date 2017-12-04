@@ -1,9 +1,10 @@
-package com.example.moshe.smackchat
+package com.example.moshe.smackchat.controller
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
+import com.example.moshe.smackchat.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 import kotlinx.android.synthetic.main.nav_header_main.*
@@ -27,7 +28,7 @@ class MainActivity : BaseActivity() {
         toggle.syncState()
 
         loginBtnNavHeader.setOnClickListener {
-        startActivity(Intent(this,LoginActivity::class.java))
+        startActivity(Intent(this, LoginActivity::class.java))
         }
 
         addChannelBtn.setOnClickListener {  }

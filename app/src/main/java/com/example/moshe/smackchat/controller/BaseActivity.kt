@@ -1,4 +1,4 @@
-package com.example.moshe.smackchat
+package com.example.moshe.smackchat.controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
